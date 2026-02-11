@@ -14,3 +14,20 @@ variable "region" {
   type        = string
   default     = "us-west1"
 }
+variable "location" {
+  description = "Project Location"
+  type        = string
+  default     = "US"
+}
+
+variable "gcs_bucket_name" {
+  description = "My Storage Bucket Name"
+  type        = string
+  default     = "terra-bucket"
+}
+
+variable "gcs_storage_class" {
+  description = "Bucket Storage Class"
+  type        = string
+  default     = "STANDARD"
+}
