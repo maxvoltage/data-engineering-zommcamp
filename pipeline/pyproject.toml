@@ -12,6 +12,9 @@ dependencies = [
     "sqlalchemy>=2.0.46",
     "tqdm>=4.67.1",
     "wget>=3.2",
+    "click>=8.1.7,<8.1.8",
+    "fsspec>=2024.12.0",
+    "aiohttp>=3.11.11",
 ]
 
 [dependency-groups]

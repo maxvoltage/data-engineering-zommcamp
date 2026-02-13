@@ -31,3 +31,9 @@ variable "gcs_storage_class" {
   type        = string
   default     = "STANDARD"
 }
+
+variable "bq_dataset_name" {
+  description = "My BigQuery Dataset Name"
+  type        = string
+  default     = "demo_dataset"
+}
